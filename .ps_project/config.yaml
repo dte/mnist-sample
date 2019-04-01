@@ -12,7 +12,7 @@ model:
   path: '/artifacts'
 checks:
   tensorflow:loss:
-    target: 0.0..0.3
+    target: 0.0..0.2
     aggregate: max
   tensorflow:accuracy:
     target: 0.988..1.000
